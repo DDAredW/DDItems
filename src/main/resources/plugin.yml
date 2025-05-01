@@ -1,0 +1,15 @@
+name: DDItems
+version: '2.0-fix'
+main: lunadev.main.DDItems
+api-version: '1.16'
+authors: [Lunatik]
+description: Создан по заказу, специально для SpinBox ^3
+website: https://github.com/DDAredW
+commands:
+  dditems:
+    description: "Основная команда плагина DDItems"
+    permission: dditems.admin
+permissions:
+  dditems.admin:
+    description: "Доступ к командам плагина"
+    default: op
